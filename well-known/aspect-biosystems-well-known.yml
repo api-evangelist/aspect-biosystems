@@ -1,0 +1,31 @@
+generated: '2026-08-02'
+method: probed
+source: https://aspectbiosystems.com/
+host: https://aspectbiosystems.com
+note: >-
+  Zero /.well-known/ documents published. Direct probes from this network time out at
+  the TCP layer (origin-side ASN filter on 35.183.91.107), so every path below was
+  re-probed through an out-of-network reader proxy that reports the origin status code.
+  All returned 404. No security.txt, no OIDC/OAuth discovery, no api-catalog, no
+  ai-plugin, no agent card. Recorded so a future re-run does not re-litigate the miss.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+- path: /llms.txt
+  status: 404
+x-evidence:
+  fetched: '2026-08-02'
+  method: reader-proxy origin status passthrough
+  direct_probe: tcp-timeout (443 and 80 filtered from probe network)

@@ -1,17 +1,38 @@
 aid: aspect-biosystems
 name: Aspect Biosystems
-description: 'Aspect Biosystems is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Aspect Biosystems is a Vancouver, British Columbia biotechnology company
+  developing Bioprinted Tissue Therapeutics — implantable, allogeneic living tissues
+  designed to replace, repair, or supplement biological function in the body. Spun
+  out of an interdisciplinary medicine-and-engineering collaboration at the University
+  of British Columbia in 2013, the company operates a self-described full-stack tissue
+  therapeutic platform that integrates proprietary AI-powered microfluidic bioprinting,
+  computational tissue design tools, therapeutic and hypoimmune-engineered cells, and
+  advanced biomaterials. Its clinical pipeline targets metabolic and endocrine disease,
+  led by pancreatic tissue programs for type 1 diabetes and programs in rare endocrine
+  disorders and liver disease. Aspect has raised more than US$350M, including a US$115M
+  Series B, and holds partnerships with Novo Nordisk (announced 2023, valued at over
+  US$2.6B in milestones) and the governments of Canada and British Columbia. It is a
+  private, pre-commercial therapeutics developer: it publishes no public developer
+  portal, API documentation, SDKs, or machine-readable API contract.'
 url: https://raw.githubusercontent.com/api-evangelist/aspect-biosystems/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enriched
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
+image: https://aspectbiosystems.com/_images/content/Tamer_Graphic_v5.svg
 tags:
 - Company
+- Biotechnology
+- Life Sciences
+- Regenerative Medicine
+- Bioprinting
+- Tissue Engineering
+- Cell Therapy
+- Healthcare
+- Canada
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +40,55 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aspect-biosystems-domain-security.yml
 - type: Website
+  url: https://aspectbiosystems.com/
+- type: About
+  url: https://aspectbiosystems.com/about
+- type: Technology
+  url: https://aspectbiosystems.com/technology
+- type: Contact
+  url: https://aspectbiosystems.com/contact
+- type: PrivacyPolicy
+  url: https://aspectbiosystems.com/privacy-policy
+- type: Careers
+  url: https://aspectbiosystems.com/careers
+- type: News
+  url: https://aspectbiosystems.com/news-resources
+- type: GitHubOrganization
+  url: https://github.com/aspectbiosystems
+- type: LinkedIn
+  url: https://ca.linkedin.com/company/aspect-biosystems
+- type: YouTube
+  url: https://www.youtube.com/channel/UC2VA_o9ifVNxAEVoI73j8tA
+- type: SecondaryMarket
   url: https://www.hiive.com/securities/aspect-biosystems-stock
+- type: LLMsTxt
+  url: llms/aspect-biosystems-llms.txt
+x-enrichment:
+  date: '2026-08-02'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+  contract_discovery:
+    openapi: none
+    swagger: none
+    graphql: none
+    asyncapi: none
+    mcp: none
+    agent_card: none
+    note: >-
+      Full contract discovery run 2026-08-02 against aspectbiosystems.com (the only host
+      the company publishes; there is no api./docs./developer. subdomain and no baseURL
+      or OpenAPI servers[] host to probe). /openapi.json, /swagger.json, /llms.txt,
+      /.well-known/security.txt, /.well-known/openid-configuration,
+      /.well-known/oauth-authorization-server, /.well-known/api-catalog,
+      /.well-known/ai-plugin.json, /.well-known/agent-card.json and /.well-known/agent.json
+      all return 404. The complete sitemap.xml contains only corporate, technology,
+      programs, partnerships, careers, news and privacy pages — no developer, docs, or
+      API section exists. The GitHub organization github.com/aspectbiosystems holds five
+      public repositories, all forks of third-party tooling, with no first-party SDK or
+      API implementation. Aspect Biosystems is a pre-commercial clinical-stage
+      therapeutics developer with no public API surface. This is a valid completed pass,
+      not a blocked one.
