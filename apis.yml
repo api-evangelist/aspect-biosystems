@@ -15,6 +15,8 @@ description: 'Aspect Biosystems is a Vancouver, British Columbia biotechnology c
   private, pre-commercial therapeutics developer: it publishes no public developer
   portal, API documentation, SDKs, or machine-readable API contract.'
 url: https://raw.githubusercontent.com/api-evangelist/aspect-biosystems/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: harvest:secondary-market
 x-tier: profiled
