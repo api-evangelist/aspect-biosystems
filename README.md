@@ -64,33 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aspect Biosystems is a Vancouver, British Columbia biotechnology company developing Bioprinted Tissue Therapeutics — implantable, allogeneic living tissues designed to replace, repair, or supplement biological function in the body. Spun out of the University of British Columbia in 2013, it operates a full-stack tissue therapeutic platform combining AI-powered microfluidic bioprinting, computational tissue design, therapeutic and hypoimmune-engineered cells, and advanced biomaterials, with a pipeline targeting metabolic and endocrine disease.
+Aspect Biosystems is a Vancouver, British Columbia biotechnology company developing Bioprinted Tissue Therapeutics — implantable, allogeneic living tissues designed to replace, repair, or supplement biological function in the body. Spun out of an interdisciplinary medicine-and-engineering collaboration at the University of British Columbia in 2013, the company operates a self-described full-stack tissue therapeutic platform that integrates proprietary AI-powered microfluidic bioprinting, computational tissue design tools, therapeutic and hypoimmune-engineered cells, and advanced biomaterials. Its clinical pipeline targets metabolic and endocrine disease, led by pancreatic tissue programs for type 1 diabetes and programs in rare endocrine disorders and liver disease. Aspect has raised more than US$350M, including a US$115M Series B, and holds partnerships with Novo Nordisk (announced 2023, valued at over US$2.6B in milestones) and the governments of Canada and British Columbia. It is a private, pre-commercial therapeutics developer: it publishes no public developer portal, API documentation, SDKs, or machine-readable API contract.
 
-## No public API
+**Areas:** Company · Biotechnology · Life Sciences · Regenerative Medicine · Bioprinting · Tissue Engineering · Cell Therapy · Healthcare · Canada
 
-As of 2026-08-02 Aspect Biosystems publishes **no public API surface**: no developer portal, no API documentation, no SDKs, no OpenAPI/Swagger/GraphQL/AsyncAPI contract, no MCP server, and no A2A agent card. Its complete sitemap contains only corporate, technology, program, partnership, careers, news, and legal pages. This is expected for a private, pre-commercial clinical-stage therapeutics developer, and it is a recorded finding — not a gap to be filled with a fabricated artifact.
+## Aspect Biosystems on APIs.io
 
-See `apis.yml` → `x-enrichment.contract_discovery` for the full list of paths probed, and `well-known/aspect-biosystems-well-known.yml` for the per-path status codes.
+Everything profiled for Aspect Biosystems is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aspect-biosystems/](https://apis.io/providers/aspect-biosystems/)** — or go straight to one of the APIs or properties below.
 
-## Links
+### Published properties
 
-- Website — https://aspectbiosystems.com/
-- Technology platform — https://aspectbiosystems.com/technology
-- Therapeutic programs — https://aspectbiosystems.com/programs
-- Partnerships — https://aspectbiosystems.com/partnerships
-- About — https://aspectbiosystems.com/about
-- News + Resources — https://aspectbiosystems.com/news-resources
-- Careers — https://aspectbiosystems.com/careers
-- Contact — https://aspectbiosystems.com/contact
-- Privacy Policy — https://aspectbiosystems.com/privacy-policy
-- GitHub — https://github.com/aspectbiosystems (five public repos, all third-party forks)
-- LinkedIn — https://ca.linkedin.com/company/aspect-biosystems
-- Secondary market listing — https://www.hiive.com/securities/aspect-biosystems-stock
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Artifacts in this repo
+#### Security (1)
 
-| Artifact | File | Method |
-|---|---|---|
-| Domain security | `security/aspect-biosystems-domain-security.yml` | probed |
-| Well-known index | `well-known/aspect-biosystems-well-known.yml` | probed (all 404) |
-| llms.txt | `llms/aspect-biosystems-llms.txt` | generated |
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aspect Biosystems Domain Security](https://apis.io/security/aspect-biosystems/aspect-biosystems-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aspectbiosystems.com/)
+- [Privacy policy](https://aspectbiosystems.com/privacy-policy)
+- [GitHub](https://github.com/aspectbiosystems)
+
+## API Evangelist rating
+
+**Kin Score 7.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aspect-biosystems/](https://apis.io/providers/aspect-biosystems/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aspect Biosystems: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aspect-biosystems/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
